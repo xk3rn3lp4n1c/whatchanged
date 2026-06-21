@@ -6,7 +6,7 @@
 
 <!-- Replace with a real demo GIF before publishing — it's the single biggest driver of installs. -->
 
-<!-- ![Demo](media/demo.gif) -->
+![Demo](media/demo.gif)
 
 ## Features
 
