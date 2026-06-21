@@ -1,4 +1,4 @@
-import { CONFIG } from "../constants/constants";
+import { CONFIG } from "../constants/config";
 
 /**
  * Strips code fences and common LLM boilerplate, returning a clean message.

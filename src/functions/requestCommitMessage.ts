@@ -1,4 +1,4 @@
-import { CONFIG, SYSTEM_PROMPT } from "../constants/constants";
+import { CONFIG } from "../constants/config";
 import { OllamaChatResponse, OllamaConfig } from "../interfaces/interface";
 import * as vscode from "vscode";
 import { buildUserPrompt } from "./buildUserPrompt";
@@ -7,6 +7,7 @@ import { toErrorMessage } from "./toErrorMessage";
 import { sanitizeCommitMessage } from "./sanitizeCommitMessage";
 import { isAbortError } from "./isAbortError";
 import { safeReadText } from "./safeReadText";
+import { SYSTEM_PROMPT } from "../constants/constants";
 
 /**
  * Calls the local Ollama server and returns a sanitized commit message.

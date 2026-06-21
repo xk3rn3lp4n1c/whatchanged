@@ -1,4 +1,4 @@
-import { CONFIG } from "../constants/constants";
+import { CONFIG } from "../constants/config";
 
 /** Builds the user-message prompt, truncating oversized diffs. */
 export const buildUserPrompt = (diff: string): string => {

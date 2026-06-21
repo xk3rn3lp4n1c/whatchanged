@@ -1,4 +1,4 @@
-import { CONFIG } from "../constants/constants";
+import { CONFIG } from "../constants/config";
 import { OllamaConfig } from "../interfaces/interface";
 import * as vscode from "vscode";
 

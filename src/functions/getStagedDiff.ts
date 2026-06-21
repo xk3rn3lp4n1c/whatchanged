@@ -1,5 +1,5 @@
 import { execSync } from "child_process";
-import { CONFIG } from "../constants/constants";
+import { CONFIG } from "../constants/config";
 
 /**
  * Returns the staged diff, or undefined if there are no staged changes.
