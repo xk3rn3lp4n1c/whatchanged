@@ -16,7 +16,7 @@
     "commands": [
       {
         "command": "commit-helper.generateCommitMessage",
-        "title": "Commit Helper: Generate Commit Message",
+        "title": "Generate Commit Message",
         "icon": "$(sparkle)"
       }
     ],
@@ -73,5 +73,9 @@
   },
   "dependencies": {
     "node-fetch": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xk3rn3lp4n1c/whatchanged.git"
   }
 }
